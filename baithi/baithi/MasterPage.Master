@@ -1,0 +1,58 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="baithi.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Css/thi.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+                <table>
+    <tr>
+        <td colspan="2">
+            <div class="row-1">
+                 <div>
+                    <p> Trường Cao đẳng</p>
+                    <p> Công thương Việt Nam</p>
+                    <p style="color:red">"Đào tạo những gì doanh nghiệp cần"</p>
+                </div>
+                <div><img  src="Images/logovci.jfif"/></div>
+                 
+            </div>
+        </td>
+    </tr>
+    <tr class="row-2" >
+        <td class="row-2-col-1">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+               
+        </td>
+        <td class="row-2-col-2">
+             <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/capnhattruonghoc.aspx">Cập nhật trường học</asp:HyperLink><br />
+ <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/thietketrangtimkiem.aspx">Thiết kế trang tìm kiếm</asp:HyperLink>
+        </td>
+    </tr>
+    <tr style="height:50px">
+        <td colspan="2">
+            <div class="row-3">
+                <div >
+                    <p>Họ tên: Đặng Trí Đức Thiên</p>
+                    <p>Đề thi: 02</p>
+                 </div>
+                <div >
+                    <p>MSSV:2104CQ270112 </p>
+                    <p>Số báo danh: CCN6B.16</p>
+                </div>
+                <div">
+                    <p>Lớp: CCN04.6B</p>
+                </div>
+            </div>
+        </td>
+    </tr>
+</table>
+    </form>
+</body>
+</html>

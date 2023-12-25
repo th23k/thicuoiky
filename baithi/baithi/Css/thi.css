@@ -1,0 +1,35 @@
+﻿body {
+    font-family: Arial,sans-serif;
+    margin: 0px;
+    padding: 30px
+}
+
+table {
+    border: 1px solid black;
+    width: 100%;
+}
+
+td {
+    border: 1px solid black;
+}
+
+.row-1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+
+.row-2 {
+    width: 85%;
+    text-align: center;
+    align-items: center;
+}
+
+.row-3 {
+    margin-left: 15%;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
